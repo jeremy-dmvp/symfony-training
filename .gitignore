@@ -33,3 +33,7 @@ compose.override.yml
 ###> deptrac/deptrac ###
 /.deptrac.cache
 ###< deptrac/deptrac ###
+
+.lean-ctx
+.idea/claudeCodeEditorTabs.xml
+.DS_Store

@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ClaudeCodeEditorTabs">
-    <option name="activeSessionId" value="e2c7e267-7257-4275-82e0-45a5cbda3faa" />
+    <option name="activeSessionId" value="2b410ed3-50ac-4979-8207-6d8764ee3296" />
     <option name="openSessionIds">
       <list>
-        <option value="52dddd8b-fb34-4670-88f2-e82e31cf727a" />
-        <option value="97e0a33c-7071-41ff-a2b8-cc2bb40aebab" />
-        <option value="e2c7e267-7257-4275-82e0-45a5cbda3faa" />
+        <option value="8a271515-0b79-4cf9-b8f4-86616a0dec6e" />
+        <option value="2b410ed3-50ac-4979-8207-6d8764ee3296" />
       </list>
     </option>
     <option name="sessionPaths">
       <map>
-        <entry key="52dddd8b-fb34-4670-88f2-e82e31cf727a" value="/sessions/new" />
-        <entry key="97e0a33c-7071-41ff-a2b8-cc2bb40aebab" value="/sessions/6e5c8d49-49ff-4cfd-ad6e-3cc42f3c6a8c" />
-        <entry key="e2c7e267-7257-4275-82e0-45a5cbda3faa" value="/sessions/0d8f88af-2224-4381-92dd-edeb244ef1a4" />
+        <entry key="2b410ed3-50ac-4979-8207-6d8764ee3296" value="/sessions/fbb0c197-c7c3-4452-b104-e00192b3c86b" />
+        <entry key="8a271515-0b79-4cf9-b8f4-86616a0dec6e" value="/sessions/3a1089a7-74ad-400b-8d38-6fd7a1b6bae2" />
       </map>
     </option>
     <option name="sessionTitles">
       <map>
-        <entry key="52dddd8b-fb34-4670-88f2-e82e31cf727a" value="Claude Code" />
-        <entry key="97e0a33c-7071-41ff-a2b8-cc2bb40aebab" value="Symfony project extensions setup" />
-        <entry key="e2c7e267-7257-4275-82e0-45a5cbda3faa" value="Most interesting Symfony extension" />
+        <entry key="2b410ed3-50ac-4979-8207-6d8764ee3296" value="Dinosaur features in AppFixtures" />
+        <entry key="8a271515-0b79-4cf9-b8f4-86616a0dec6e" value="Dinosaur birthdate as date" />
       </map>
     </option>
   </component>

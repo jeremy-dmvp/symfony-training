@@ -11,6 +11,7 @@ class Dinosaur implements AggregateRoot
         private string $gender,
         private Species $species,
         private int $age,
+        private \DateTimeInterface $birthdate,
         private string $eyesColor,
     ) {
     }
@@ -60,6 +61,16 @@ class Dinosaur implements AggregateRoot
         $this->age = $age;
     }
 
+    public function getBirthdate(): \DateTimeInterface
+    {
+        return $this->birthdate;
+    }
+
+    public function setBirthdate(\DateTimeInterface $birthdate): void
+    {
+        $this->birthdate = $birthdate;
+    }
+
     public function getEyesColor(): string
     {
         return $this->eyesColor;
@@ -78,6 +89,7 @@ class Dinosaur implements AggregateRoot
             'gender' => $this->gender,
             'species' => $this->species,
             'age' => $this->age,
+            'birthdate' => $this->birthdate,
             'eyesColor' => $this->eyesColor,
         ];
     }

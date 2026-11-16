@@ -13,6 +13,7 @@ final class Dinosaur
     private string $gender;
     private Species $species;
     private int $age;
+    private \DateTimeInterface $birthdate;
     private string $eyesColor;
 
     public function __construct(ModelDinosaur $dinosaurModel)
@@ -22,6 +23,7 @@ final class Dinosaur
         $this->gender = $dinosaurModel->getGender();
         $this->species = new Species($dinosaurModel->getSpecies());
         $this->age = $dinosaurModel->getAge();
+        $this->birthdate = $dinosaurModel->getBirthdate();
         $this->eyesColor = $dinosaurModel->getEyesColor();
     }
 
@@ -68,6 +70,16 @@ final class Dinosaur
     public function setAge(int $age): void
     {
         $this->age = $age;
+    }
+
+    public function getBirthdate(): \DateTimeInterface
+    {
+        return $this->birthdate;
+    }
+
+    public function setBirthdate(\DateTimeInterface $birthdate): void
+    {
+        $this->birthdate = $birthdate;
     }
 
     public function getEyesColor(): string
