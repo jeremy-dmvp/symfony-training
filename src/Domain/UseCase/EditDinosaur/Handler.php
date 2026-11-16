@@ -39,6 +39,7 @@ final readonly class Handler
         $dinosaur->setGender($input->gender);
         $dinosaur->setSpecies($species);
         $dinosaur->setAge($input->age);
+        $dinosaur->setBirthdate($input->birthdate);
         $dinosaur->setEyesColor($input->eyesColor);
 
         return new Output($dinosaur);
