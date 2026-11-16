@@ -61,9 +61,9 @@ class Dinosaur implements AggregateRoot
         $this->age = $age;
     }
 
-    public function getBirthdate(): \DateTimeInterface
+    public function getBirthdate(): String
     {
-        return $this->birthdate;
+        return $this->birthdate->format('Y-m-d');
     }
 
     public function setBirthdate(\DateTimeInterface $birthdate): void

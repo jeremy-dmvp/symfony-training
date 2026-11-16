@@ -17,3 +17,8 @@ services:
 
   Infrastructure\Doctrine\DataFixtures\:
     resource: '../src/Infrastructure/Doctrine/DataFixtures/**.php'
+
+  Application\GraphQL\DinosaurResolverMap:
+    tags:
+      - name: overblog_graphql.resolver_map
+        schema: main
