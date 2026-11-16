@@ -1,0 +1,22 @@
+Query:
+    type: object
+    config:
+        fields:
+            dinosaurs:
+                type: '[Dinosaur!]!'
+                complexity: '@=1 + childrenComplexity'
+                args: { search: { type: 'String' } }
+                resolve:    |
+                    @=query(
+                        "dinosaurs",
+                        args["search"]
+                    )
+            dinosaur:
+                type: 'Dinosaur!'
+                complexity: '@=1 + childrenComplexity'
+                args: { id: { type: 'ID!' } }
+                resolve:    |
+                    @=query(
+                        "dinosaur",
+                        args["id"]
+                    )

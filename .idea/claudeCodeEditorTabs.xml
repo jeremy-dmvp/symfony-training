@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ClaudeCodeEditorTabs">
-    <option name="activeSessionId" value="2b410ed3-50ac-4979-8207-6d8764ee3296" />
+    <option name="activeSessionId" value="450e00b1-1c3f-4d74-81d1-300ea91c6341" />
     <option name="openSessionIds">
       <list>
-        <option value="8a271515-0b79-4cf9-b8f4-86616a0dec6e" />
-        <option value="2b410ed3-50ac-4979-8207-6d8764ee3296" />
+        <option value="450e00b1-1c3f-4d74-81d1-300ea91c6341" />
       </list>
     </option>
     <option name="sessionPaths">
       <map>
-        <entry key="2b410ed3-50ac-4979-8207-6d8764ee3296" value="/sessions/fbb0c197-c7c3-4452-b104-e00192b3c86b" />
-        <entry key="8a271515-0b79-4cf9-b8f4-86616a0dec6e" value="/sessions/3a1089a7-74ad-400b-8d38-6fd7a1b6bae2" />
+        <entry key="450e00b1-1c3f-4d74-81d1-300ea91c6341" value="/sessions/8242e23a-6e1e-4f0b-9039-61c58f2e5240" />
       </map>
     </option>
     <option name="sessionTitles">
       <map>
-        <entry key="2b410ed3-50ac-4979-8207-6d8764ee3296" value="Dinosaur features in AppFixtures" />
-        <entry key="8a271515-0b79-4cf9-b8f4-86616a0dec6e" value="Dinosaur birthdate as date" />
+        <entry key="450e00b1-1c3f-4d74-81d1-300ea91c6341" value="DynosaurResolver createDinosaur mutation error" />
       </map>
     </option>
   </component>
