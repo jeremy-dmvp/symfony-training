@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ClaudeCodeEditorTabs">
-    <option name="activeSessionId" value="ef12ab7b-77eb-4de5-aba2-71a2e0bb1064" />
+    <option name="activeSessionId" value="646d31e0-dcba-472d-b439-2657a014c772" />
     <option name="openSessionIds">
       <list>
         <option value="ef12ab7b-77eb-4de5-aba2-71a2e0bb1064" />
+        <option value="646d31e0-dcba-472d-b439-2657a014c772" />
       </list>
     </option>
     <option name="sessionPaths">
       <map>
+        <entry key="646d31e0-dcba-472d-b439-2657a014c772" value="/sessions/bf98aff7-dee4-4f0e-8010-5898a241af03" />
         <entry key="ef12ab7b-77eb-4de5-aba2-71a2e0bb1064" value="/sessions/0cc83581-3d28-40e4-a94d-1c7c86336931" />
       </map>
     </option>
     <option name="sessionTitles">
       <map>
+        <entry key="646d31e0-dcba-472d-b439-2657a014c772" value="Authentication branch" />
         <entry key="ef12ab7b-77eb-4de5-aba2-71a2e0bb1064" value="Transports Messenger async et failed" />
       </map>
     </option>
