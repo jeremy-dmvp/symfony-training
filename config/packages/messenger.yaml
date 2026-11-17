@@ -1,8 +1,20 @@
 framework:
   messenger:
     default_bus: command.bus
+    failure_transport: failed
+
     transports:
+      async:
+        dsn: '%env(MESSENGER_TRANSPORT_DSN)%?queue_name=async'
+        retry_strategy:
+          max_retries: 2
+          delay: 1000
+      failed:
+        dsn: '%env(ASYNC_DSN_FAILURE)%'
       sync: 'sync://'
+
+    routing:
+      'Domain\Event\EventInterface': async
 
     buses:
       command.bus:
