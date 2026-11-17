@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ClaudeCodeEditorTabs">
-    <option name="activeSessionId" value="450e00b1-1c3f-4d74-81d1-300ea91c6341" />
+    <option name="activeSessionId" value="ef12ab7b-77eb-4de5-aba2-71a2e0bb1064" />
     <option name="openSessionIds">
       <list>
-        <option value="450e00b1-1c3f-4d74-81d1-300ea91c6341" />
+        <option value="ef12ab7b-77eb-4de5-aba2-71a2e0bb1064" />
       </list>
     </option>
     <option name="sessionPaths">
       <map>
-        <entry key="450e00b1-1c3f-4d74-81d1-300ea91c6341" value="/sessions/8242e23a-6e1e-4f0b-9039-61c58f2e5240" />
+        <entry key="ef12ab7b-77eb-4de5-aba2-71a2e0bb1064" value="/sessions/0cc83581-3d28-40e4-a94d-1c7c86336931" />
       </map>
     </option>
     <option name="sessionTitles">
       <map>
-        <entry key="450e00b1-1c3f-4d74-81d1-300ea91c6341" value="DynosaurResolver createDinosaur mutation error" />
+        <entry key="ef12ab7b-77eb-4de5-aba2-71a2e0bb1064" value="Transports Messenger async et failed" />
       </map>
     </option>
   </component>

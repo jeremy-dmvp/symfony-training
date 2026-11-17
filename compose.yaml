@@ -1,6 +1,6 @@
 ---
 services:
-  php:
+  php: &php
     platform: linux/x86_64
     build: .
     environment:
@@ -44,6 +44,19 @@ services:
       MYSQL_USER: ${MYSQL_USER}
     volumes:
       - db_data:/var/lib/mysql:rw
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  consumer:
+    <<: *php
+    command: bin/console messenger:consume async --memory-limit=128M --time-limit=3600 --limit=10 -vv
+    depends_on:
+      database:
+        condition: service_healthy
     restart: unless-stopped
 
 volumes:
