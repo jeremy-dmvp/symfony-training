@@ -5,12 +5,10 @@ services:
 
     Application\GraphQL\DinosaurResolver:
         tags:
-            - name: overblog_graphql.query
-              alias: dinosaurs
-              method: dinosaurs
-            - name: overblog_graphql.query
-              alias: dinosaur
-              method: dinosaur
-            - name: overblog_graphql.mutation
-              alias: createDinosaur
-              method: createDinosaur
+            - { name: overblog_graphql.query, alias: dinosaurs, method: dinosaurs }
+            - { name: overblog_graphql.query, alias: dinosaur, method: dinosaur }
+            - { name: overblog_graphql.mutation, alias: createDinosaur, method: createDinosaur }
+
+    Application\GraphQL\AuthResolver:
+        tags:
+            - { name: overblog_graphql.mutation, alias: login }
