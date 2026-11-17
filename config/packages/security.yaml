@@ -14,10 +14,9 @@ security:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
-        api:
-            pattern: ^/graphql
+        graphql:
+            pattern: ^/graphdl/
             stateless: true
-            provider: app_user_provider
             custom_authenticators:
                 - Infrastructure\Symfony\Security\JWTAuthenticator
         main:

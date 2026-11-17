@@ -12,6 +12,7 @@ Query:
                         args["search"]
                     )
             dinosaur:
+                # access: "@=isAuthenticated()"
                 type: 'Dinosaur!'
                 complexity: '@=1 + childrenComplexity'
                 args: { id: { type: 'ID!' } }
@@ -20,3 +21,4 @@ Query:
                         "dinosaur",
                         args["id"]
                     )
+
