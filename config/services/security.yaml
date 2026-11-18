@@ -4,3 +4,4 @@ services:
       autoconfigure: true
 
   Infrastructure\Symfony\Security\JWTAuthenticator: ~
+  Infrastructure\Symfony\Security\DinosaurVoter: ~
