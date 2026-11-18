@@ -22,3 +22,6 @@ services:
     tags:
       - name: overblog_graphql.resolver_map
         schema: main
+
+  Infrastructure\Lexik\LexikJWTEncoder: ~
+  Application\Security\JWTEncoder : '@Infrastructure\Lexik\LexikJWTEncoder'

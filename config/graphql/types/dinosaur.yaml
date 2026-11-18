@@ -2,12 +2,13 @@ Dinosaur:
     type: object
     config:
         fields:
-            id: { type: 'ID!' }
+            id: { type: 'ID!'} #, access: "@=isAuthenticated()" }
             name: {
                 type: 'String!',
-                complexity: '@=2'
+                complexity: '@=2',
+                deprecationReason: "Use displayName instead"
             }
-            gender: { type: 'String!' }
+            gender: { type: 'String!', access: "@=hasRole('ROLE_ADMIN')" }
             age: { type: 'Int!' }
             birthdate: { type: 'String' }
             eyesColor: { type: 'String!' }

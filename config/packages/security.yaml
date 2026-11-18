@@ -14,28 +14,17 @@ security:
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
+        graphql:
+            pattern: ^/graphql/
+            stateless: true
+            custom_authenticators:
+                - Infrastructure\Symfony\Security\JWTAuthenticator
         main:
             lazy: true
             provider: app_user_provider
-            form_login:
-                login_path: login
-                check_path: login
-                default_target_path: app_list_dinosaurs
-            logout:
-                path: logout
-                target: login
 
-    # Easy way to control access for large sections of your site
-    # Note: Only the *first* access control that matches will be used
     access_control:
-        - { path: ^/dinosaurs$, roles: ROLE_USER }
-        - { path: ^/dinosaurs/\d+$, roles: ROLE_USER }
-        # - { path: ^/dinosaurs/, roles: ROLE_ADMIN }
-        - { path: ^/species$, roles: ROLE_USER }
-        - { path: ^/species/\d+$, roles: ROLE_USER }
-        # - { path: ^/species/, roles: ROLE_ADMIN }
-        # - { path: ^/admin, roles: ROLE_ADMIN }
-        # - { path: ^/profile, roles: ROLE_USER }
+        - { path: ^/graphql$, roles: PUBLIC_ACCESS }
 
 when@test:
     security:
